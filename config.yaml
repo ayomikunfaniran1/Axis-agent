@@ -1,0 +1,18 @@
+# Axis Agent configuration
+# matrix_file: location of the camera matrix
+matrix_file: matrix.yaml
+# dry_run: global default for dry run (can be overridden by CLI)
+dry_run: false
+# action log file for rollback
+action_log: actions.log
+
+# HTTP session defaults
+http:
+  timeout: 10
+
+# VLAN policy (optional)
+vlan:
+  min: 2
+  max: 4000
+  blocked: [1]
+  # allowed: [10,20,30]

@@ -1,0 +1,9 @@
+- name: local-axis-temp
+  host: 169.254.65.61
+  username: root
+  password: ""  # current password unknown/empty
+  new_password: psw
+  target_ip: 192.168.0.90
+  netmask: 255.255.255.0
+  gateway: 192.168.0.1
+  target_vlan: 10

@@ -1,0 +1,11 @@
+# Simulated camera matrix for offline testing
+- name: sim-front
+  host: 127.0.0.1
+  username: sim
+  password: sim
+  target_vlan: 100
+- name: sim-back
+  host: 127.0.0.1
+  username: sim
+  password: sim
+  target_vlan: 200

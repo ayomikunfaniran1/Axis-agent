@@ -1,0 +1,22 @@
+# Example camera matrix
+- name: front-door
+  host: 192.0.2.10
+  username: root
+  password: password
+  target_vlan: 20
+- name: back-yard
+  host: 192.0.2.11
+  username: root
+  password: password
+  target_vlan: 30
+
+# Local camera added by agent request
+- name: local-axis-1
+  host: 192.168.0.90
+  username: root
+  password: ""  # current (empty) password assumed
+  new_password: psw
+  target_ip: 192.168.0.90
+  netmask: 255.255.255.0
+  gateway: 192.168.0.1
+  target_vlan: 10

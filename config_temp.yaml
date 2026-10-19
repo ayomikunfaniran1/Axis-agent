@@ -1,0 +1,9 @@
+matrix_file: matrix_temp.yaml
+dry_run: false
+action_log: actions_temp.log
+http:
+  timeout: 10
+vlan:
+  min: 2
+  max: 4000
+  blocked: [1]
